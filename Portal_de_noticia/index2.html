@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;}
+        body{
+background-color: black;
+/*background-clip: border-box;*/
+}
+
+
+        .lng{
+            border: 2px solid rgba(255, 255, 255, .5);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            background: transparent;
+            position: absolute;
+            width: 500px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+
+}
+        button{
+            background-color: rgb(18, 91, 248);
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            font-size: 15px;
+}
+        button:hover{
+        background-color: rgb(0, 44, 139);
+}
+
+
+
+            .imagem2 img{
+                position: absolute;
+                height: 450px;
+                margin-left: 620px;
+                width: 700px;
+            
+            }
+
+            video{
+            width: 100%;
+
+            }
+            form{
+                color: aliceblue;
+                font-size: 19px;
+            }
+h2{
+    
+    z-index: 999;
+}
+p{
+    color: aliceblue;
+}
+.pswrd{
+    color: aliceblue;
+}
+</style>
+</head>
+<body>
+    <section>
+        <video width="1890" src="./4125742-uhd_4096_2160_25fps.mp4" autoplay muted loop></video>
+        
+        <div class="imagem2">
+            <div class="lng"> 
+                <form action="">
+                    <h2>Login</h2><BR>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email">
+                    <br><br>
+                    <label for="senha">senha:</label>
+                    <input id="senha" type="password">
+                    <br><br>
+                    
+                </form>
+                <div class="pswrd">
+                    <label><input type="checkbox">Lembrar-
+                    me</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                
+                <button onclick="window.location.href='http://127.0.0.1:5500/Exemplo/Portal_de_noticia/index.html'">Enviar</button>
+                <div class="register-link"><BR>
+                    <p>Não tem uma conta?<a href="#">
+                        Registrar</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+        
+        
+
+
+</body>
+</html>
